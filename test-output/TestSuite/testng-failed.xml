@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.lib.RetryListenerClass"/>
+    <listener class-name="com.qa.lib.ListnerImpl"/>
+  </listeners>
+  <test thread-count="2" name="FireFox(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="com.qa.TestCases.ConsumerLoginPageTest">
+        <methods>
+          <include name="ConsumerLoginPortalTest"/>
+          <include name="getResult"/>
+          <include name="ConsumerPortalTittle"/>
+          <include name="Exit"/>
+          <include name="ConsumerLogoTest"/>
+          <include name="setup"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ConsumerLoginPageTest -->
+      <class name="com.qa.TestCases.EditProfilePageTest">
+        <methods>
+          <include name="EditProfile"/>
+          <include name="EditProfileTittleValidation"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="TranscationHistoryTest"/>
+          <include name="EditProfileDetailsValidation"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.EditProfilePageTest -->
+      <class name="com.qa.TestCases.TranscationHistoryTest">
+        <methods>
+          <include name="TranscationHistoryTittleValidation"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="DashBoardPageTittleValidation"/>
+          <include name="ClickOnCalender"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="TransHistory"/>
+          <include name="initialization"/>
+          <include name="TransHistoryScreenValidation"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.TranscationHistoryTest -->
+      <class name="com.qa.TestCases.DashBoardTest">
+        <methods>
+          <include name="MoveToTranscationHistoryPage"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="Last5TranscationTextValidation"/>
+          <include name="DashBoardIntialize"/>
+          <include name="SecondDashBoardPageTittleValidation"/>
+          <include name="DashBoardPageTittleValidation"/>
+          <include name="AccountBalanceTextValidation"/>
+          <include name="endReport"/>
+          <include name="ReportSetup"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.DashBoardTest -->
+      <class name="com.qa.TestCases.ManagedCardTest">
+        <methods>
+          <include name="EditProfileTittleValidation"/>
+          <include name="AddCard"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="AddBankAccDetails"/>
+          <include name="EditCardDetails"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="DeleteCardDetails"/>
+          <include name="initialization"/>
+          <include name="ManagedCardStart"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ManagedCardTest -->
+    </classes>
+  </test> <!-- FireFox(failed) -->
+  <test thread-count="2" name="Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.TestCases.ConsumerLoginPageTest">
+        <methods>
+          <include name="ConsumerLoginPortalTest"/>
+          <include name="getResult"/>
+          <include name="ConsumerPortalTittle"/>
+          <include name="Exit"/>
+          <include name="ConsumerLogoTest"/>
+          <include name="setup"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ConsumerLoginPageTest -->
+      <class name="com.qa.TestCases.EditProfilePageTest">
+        <methods>
+          <include name="EditProfile"/>
+          <include name="EditProfileTittleValidation"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="TranscationHistoryTest"/>
+          <include name="EditProfileDetailsValidation"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.EditProfilePageTest -->
+      <class name="com.qa.TestCases.TranscationHistoryTest">
+        <methods>
+          <include name="TranscationHistoryTittleValidation"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="DashBoardPageTittleValidation"/>
+          <include name="ClickOnCalender"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="TransHistory"/>
+          <include name="initialization"/>
+          <include name="TransHistoryScreenValidation"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.TranscationHistoryTest -->
+      <class name="com.qa.TestCases.DashBoardTest">
+        <methods>
+          <include name="MoveToTranscationHistoryPage"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="Last5TranscationTextValidation"/>
+          <include name="DashBoardIntialize"/>
+          <include name="SecondDashBoardPageTittleValidation"/>
+          <include name="DashBoardPageTittleValidation"/>
+          <include name="AccountBalanceTextValidation"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="initialization"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.DashBoardTest -->
+      <class name="com.qa.TestCases.ManagedCardTest">
+        <methods>
+          <include name="EditProfileTittleValidation"/>
+          <include name="AddCard"/>
+          <include name="getResult"/>
+          <include name="Exit"/>
+          <include name="AddBankAccDetails"/>
+          <include name="EditCardDetails"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="DeleteCardDetails"/>
+          <include name="initialization"/>
+          <include name="ManagedCardStart"/>
+        </methods>
+      </class> <!-- com.qa.TestCases.ManagedCardTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

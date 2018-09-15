@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 12 14:33:45 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>357 seconds (357236 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.TestCases.DashBoardTest.AccountBalanceTextValidation()'><b>AccountBalanceTextValidation</b><br>Test class: com.qa.TestCases.DashBoardTest<br>Test method: Account Balance Text Validation on Dashboard Page of Consumer Portal</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.DashBoardTest@e048a</td></tr>
+<tr>
+<td title='com.qa.TestCases.ManagedCardTest.AddBankAccDetails()'><b>AddBankAccDetails</b><br>Test class: com.qa.TestCases.ManagedCardTest<br>Test method: Additon of Bank Details on Consumer Portal</td>
+<td></td>
+<td>98</td>
+<td>com.qa.TestCases.ManagedCardTest@1e028a9</td></tr>
+<tr>
+<td title='com.qa.TestCases.ManagedCardTest.AddCard()'><b>AddCard</b><br>Test class: com.qa.TestCases.ManagedCardTest<br>Test method: Add Credit/Debit Card on Consumer Portal</td>
+<td></td>
+<td>61</td>
+<td>com.qa.TestCases.ManagedCardTest@1e028a9</td></tr>
+<tr>
+<td title='com.qa.TestCases.TranscationHistoryTest.ClickOnCalender()'><b>ClickOnCalender</b><br>Test class: com.qa.TestCases.TranscationHistoryTest<br>Test method: Transcation History Validation</td>
+<td></td>
+<td>25</td>
+<td>com.qa.TestCases.TranscationHistoryTest@1c79255</td></tr>
+<tr>
+<td title='com.qa.TestCases.ConsumerLoginPageTest.ConsumerLoginPortalTest()'><b>ConsumerLoginPortalTest</b><br>Test class: com.qa.TestCases.ConsumerLoginPageTest<br>Test method: Login Validation for Consumer Portal</td>
+<td></td>
+<td>1</td>
+<td>com.qa.TestCases.ConsumerLoginPageTest@1ac631b</td></tr>
+<tr>
+<td title='com.qa.TestCases.ConsumerLoginPageTest.ConsumerLogoTest()'><b>ConsumerLogoTest</b><br>Test class: com.qa.TestCases.ConsumerLoginPageTest<br>Test method: Validation of Logo On Consumer Portal Home Page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.ConsumerLoginPageTest@1ac631b</td></tr>
+<tr>
+<td title='com.qa.TestCases.ConsumerLoginPageTest.ConsumerPortalTittle()'><b>ConsumerPortalTittle</b><br>Test class: com.qa.TestCases.ConsumerLoginPageTest<br>Test method: Validation of Tittle On Consumer Portal Home Page</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.ConsumerLoginPageTest@1ac631b</td></tr>
+<tr>
+<td title='com.qa.TestCases.DashBoardTest.DashBoardPageTittleValidation()'><b>DashBoardPageTittleValidation</b><br>Test class: com.qa.TestCases.DashBoardTest<br>Test method: Tittle Validation for Dashboard Page of Consumer Portal</td>
+<td></td>
+<td>5</td>
+<td>com.qa.TestCases.DashBoardTest@e048a</td></tr>
+<tr>
+<td title='com.qa.TestCases.TranscationHistoryTest.DashBoardPageTittleValidation()'><b>DashBoardPageTittleValidation</b><br>Test class: com.qa.TestCases.TranscationHistoryTest<br>Test method: Tittle Validation for Add Card Page on Consumer Portal</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.TranscationHistoryTest@1c79255</td></tr>
+<tr>
+<td title='com.qa.TestCases.ManagedCardTest.DeleteCardDetails()'><b>DeleteCardDetails</b><br>Test class: com.qa.TestCases.ManagedCardTest<br>Test method: Delete Card Details from Consumer Portal</td>
+<td></td>
+<td>49</td>
+<td>com.qa.TestCases.ManagedCardTest@1e028a9</td></tr>
+<tr>
+<td title='com.qa.TestCases.ManagedCardTest.EditCardDetails()'><b>EditCardDetails</b><br>Test class: com.qa.TestCases.ManagedCardTest<br>Test method: Edit Card on Consumer Portal</td>
+<td></td>
+<td>39</td>
+<td>com.qa.TestCases.ManagedCardTest@1e028a9</td></tr>
+<tr>
+<td title='com.qa.TestCases.EditProfilePageTest.EditProfile()'><b>EditProfile</b><br>Test class: com.qa.TestCases.EditProfilePageTest<br>Test method: Edit Profile Validation Check</td>
+<td></td>
+<td>42</td>
+<td>com.qa.TestCases.EditProfilePageTest@1ef968d</td></tr>
+<tr>
+<td title='com.qa.TestCases.EditProfilePageTest.EditProfileDetailsValidation()'><b>EditProfileDetailsValidation</b><br>Test class: com.qa.TestCases.EditProfilePageTest<br>Test method: Edit Profile Name and DOB Validation</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.EditProfilePageTest@1ef968d</td></tr>
+<tr>
+<td title='com.qa.TestCases.EditProfilePageTest.EditProfileTittleValidation()'><b>EditProfileTittleValidation</b><br>Test class: com.qa.TestCases.EditProfilePageTest<br>Test method: Tittle Validation for Edit Profile on Consumer Portal</td>
+<td></td>
+<td>5</td>
+<td>com.qa.TestCases.EditProfilePageTest@1ef968d</td></tr>
+<tr>
+<td title='com.qa.TestCases.ManagedCardTest.EditProfileTittleValidation()'><b>EditProfileTittleValidation</b><br>Test class: com.qa.TestCases.ManagedCardTest<br>Test method: Tittle Validation for Add Card Page on Consumer Portal</td>
+<td></td>
+<td>5</td>
+<td>com.qa.TestCases.ManagedCardTest@1e028a9</td></tr>
+<tr>
+<td title='com.qa.TestCases.DashBoardTest.Last5TranscationTextValidation()'><b>Last5TranscationTextValidation</b><br>Test class: com.qa.TestCases.DashBoardTest<br>Test method: Last 5 Transcation text Validation for Dashboard Page of Consumer Portal</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.DashBoardTest@e048a</td></tr>
+<tr>
+<td title='com.qa.TestCases.DashBoardTest.MoveToTranscationHistoryPage()'><b>MoveToTranscationHistoryPage</b><br>Test class: com.qa.TestCases.DashBoardTest<br>Test method: Click On Transcation History Page</td>
+<td></td>
+<td>2</td>
+<td>com.qa.TestCases.DashBoardTest@e048a</td></tr>
+<tr>
+<td title='com.qa.TestCases.DashBoardTest.SecondDashBoardPageTittleValidation()'><b>SecondDashBoardPageTittleValidation</b><br>Test class: com.qa.TestCases.DashBoardTest<br>Test method: Second Tittle Validation for Dashboard Page of Consumer Portal</td>
+<td></td>
+<td>0</td>
+<td>com.qa.TestCases.DashBoardTest@e048a</td></tr>
+<tr>
+<td title='com.qa.TestCases.TranscationHistoryTest.TransHistoryScreenValidation()'><b>TransHistoryScreenValidation</b><br>Test class: com.qa.TestCases.TranscationHistoryTest<br>Test method: Transcation History Compelte Screen Field Validation</td>
+<td></td>
+<td>12</td>
+<td>com.qa.TestCases.TranscationHistoryTest@1c79255</td></tr>
+<tr>
+<td title='com.qa.TestCases.TranscationHistoryTest.TranscationHistoryTittleValidation()'><b>TranscationHistoryTittleValidation</b><br>Test class: com.qa.TestCases.TranscationHistoryTest<br>Test method: Tittle Validation for Dashboard Page of Consumer Portal</td>
+<td></td>
+<td>5</td>
+<td>com.qa.TestCases.TranscationHistoryTest@1c79255</td></tr>
+</table><p>
+</body>
+</html>

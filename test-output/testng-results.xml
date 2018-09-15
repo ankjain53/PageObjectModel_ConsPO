@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="32" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="357236" started-at="2018-09-12T09:03:45Z" finished-at="2018-09-12T09:09:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="357236" started-at="2018-09-12T09:03:45Z" finished-at="2018-09-12T09:09:42Z">
+      <class name="com.qa.TestCases.DashBoardTest">
+        <test-method status="PASS" signature="DashBoardIntialize()[pri:0, instance:com.qa.TestCases.DashBoardTest@e048a]" name="DashBoardIntialize" is-config="true" duration-ms="85" started-at="2018-09-12T09:03:45Z" finished-at="2018-09-12T09:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardIntialize -->
+        <test-method status="PASS" signature="TranscationHistoryTest()[pri:0, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="TranscationHistoryTest" is-config="true" duration-ms="67" started-at="2018-09-12T09:03:45Z" finished-at="2018-09-12T09:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TranscationHistoryTest -->
+        <test-method status="PASS" signature="ManagedCardStart()[pri:0, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="ManagedCardStart" is-config="true" duration-ms="17" started-at="2018-09-12T09:03:45Z" finished-at="2018-09-12T09:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ManagedCardStart -->
+        <test-method status="PASS" signature="TransHistory()[pri:0, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="TransHistory" is-config="true" duration-ms="32" started-at="2018-09-12T09:03:45Z" finished-at="2018-09-12T09:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransHistory -->
+        <test-method status="PASS" signature="DashBoardPageTittleValidation()[pri:4, instance:com.qa.TestCases.DashBoardTest@e048a]" name="DashBoardPageTittleValidation" duration-ms="5022" started-at="2018-09-12T09:03:48Z" description="Tittle Validation for Dashboard Page of Consumer Portal" finished-at="2018-09-12T09:03:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardPageTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.DashBoardTest@e048a]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:03:53Z" finished-at="2018-09-12T09:03:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DashBoardPageTittleValidation status=SUCCESS method=DashBoardTest.DashBoardPageTittleValidation()[pri:4, instance:com.qa.TestCases.DashBoardTest@e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SecondDashBoardPageTittleValidation()[pri:5, instance:com.qa.TestCases.DashBoardTest@e048a]" name="SecondDashBoardPageTittleValidation" duration-ms="203" started-at="2018-09-12T09:03:53Z" description="Second Tittle Validation for Dashboard Page of Consumer Portal" finished-at="2018-09-12T09:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDashBoardPageTittleValidation -->
+        <test-method status="PASS" signature="AccountBalanceTextValidation()[pri:6, instance:com.qa.TestCases.DashBoardTest@e048a]" name="AccountBalanceTextValidation" duration-ms="78" started-at="2018-09-12T09:03:54Z" description="Account Balance Text Validation on Dashboard Page of Consumer Portal" finished-at="2018-09-12T09:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountBalanceTextValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.DashBoardTest@e048a]" name="getResult" is-config="true" duration-ms="0" started-at="2018-09-12T09:03:54Z" finished-at="2018-09-12T09:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SecondDashBoardPageTittleValidation status=SUCCESS method=DashBoardTest.SecondDashBoardPageTittleValidation()[pri:5, instance:com.qa.TestCases.DashBoardTest@e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.DashBoardTest@e048a]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:03:54Z" finished-at="2018-09-12T09:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountBalanceTextValidation status=SUCCESS method=DashBoardTest.AccountBalanceTextValidation()[pri:6, instance:com.qa.TestCases.DashBoardTest@e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Last5TranscationTextValidation()[pri:7, instance:com.qa.TestCases.DashBoardTest@e048a]" name="Last5TranscationTextValidation" duration-ms="108" started-at="2018-09-12T09:03:54Z" description="Last 5 Transcation text Validation for Dashboard Page of Consumer Portal" finished-at="2018-09-12T09:03:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last5TranscationTextValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.DashBoardTest@e048a]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:03:54Z" finished-at="2018-09-12T09:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Last5TranscationTextValidation status=SUCCESS method=DashBoardTest.Last5TranscationTextValidation()[pri:7, instance:com.qa.TestCases.DashBoardTest@e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MoveToTranscationHistoryPage()[pri:8, instance:com.qa.TestCases.DashBoardTest@e048a]" name="MoveToTranscationHistoryPage" duration-ms="2451" started-at="2018-09-12T09:03:54Z" description="Click On Transcation History Page" finished-at="2018-09-12T09:03:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToTranscationHistoryPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.DashBoardTest@e048a]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:03:56Z" finished-at="2018-09-12T09:03:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MoveToTranscationHistoryPage status=SUCCESS method=DashBoardTest.MoveToTranscationHistoryPage()[pri:8, instance:com.qa.TestCases.DashBoardTest@e048a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.TestCases.DashBoardTest -->
+      <class name="com.qa.TestCases.ConsumerLoginPageTest">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="ReportSetup" is-config="true" duration-ms="1666" started-at="2018-09-12T09:02:47Z" finished-at="2018-09-12T09:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReportSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="setup" is-config="true" duration-ms="56079" started-at="2018-09-12T09:02:49Z" depends-on-methods="com.qa.BaseClass.ConsumerBaseClass.ReportSetup" finished-at="2018-09-12T09:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ConsumerLogoTest()[pri:1, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="ConsumerLogoTest" duration-ms="933" started-at="2018-09-12T09:03:46Z" description="Validation of Logo On Consumer Portal Home Page" finished-at="2018-09-12T09:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerLogoTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="getResult" is-config="true" duration-ms="18" started-at="2018-09-12T09:03:47Z" finished-at="2018-09-12T09:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerLogoTest status=SUCCESS method=ConsumerLoginPageTest.ConsumerLogoTest()[pri:1, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ConsumerPortalTittle()[pri:2, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="ConsumerPortalTittle" duration-ms="113" started-at="2018-09-12T09:03:47Z" description="Validation of Tittle On Consumer Portal Home Page" finished-at="2018-09-12T09:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerPortalTittle -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:03:47Z" finished-at="2018-09-12T09:03:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerPortalTittle status=SUCCESS method=ConsumerLoginPageTest.ConsumerPortalTittle()[pri:2, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ConsumerLoginPortalTest()[pri:3, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="ConsumerLoginPortalTest" duration-ms="1611" started-at="2018-09-12T09:03:47Z" description="Login Validation for Consumer Portal" finished-at="2018-09-12T09:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConsumerLoginPortalTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="getResult" is-config="true" duration-ms="0" started-at="2018-09-12T09:03:48Z" finished-at="2018-09-12T09:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ConsumerLoginPortalTest status=SUCCESS method=ConsumerLoginPageTest.ConsumerLoginPortalTest()[pri:3, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Exit()[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="Exit" is-config="true" duration-ms="956" started-at="2018-09-12T09:09:41Z" finished-at="2018-09-12T09:09:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.qa.TestCases.ConsumerLoginPageTest@1ac631b]" name="endReport" is-config="true" duration-ms="1858" started-at="2018-09-12T09:09:43Z" finished-at="2018-09-12T09:09:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.qa.TestCases.ConsumerLoginPageTest -->
+      <class name="com.qa.TestCases.EditProfilePageTest">
+        <test-method status="PASS" signature="EditProfileTittleValidation()[pri:13, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="EditProfileTittleValidation" duration-ms="5031" started-at="2018-09-12T09:04:39Z" description="Tittle Validation for Edit Profile on Consumer Portal" finished-at="2018-09-12T09:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-09-12T09:04:44Z" finished-at="2018-09-12T09:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileTittleValidation status=SUCCESS method=EditProfilePageTest.EditProfileTittleValidation()[pri:13, instance:com.qa.TestCases.EditProfilePageTest@1ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="EditProfileDetailsValidation()[pri:14, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="EditProfileDetailsValidation" duration-ms="244" started-at="2018-09-12T09:04:44Z" description="Edit Profile Name and DOB Validation" finished-at="2018-09-12T09:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileDetailsValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:04:45Z" finished-at="2018-09-12T09:04:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileDetailsValidation status=SUCCESS method=EditProfilePageTest.EditProfileDetailsValidation()[pri:14, instance:com.qa.TestCases.EditProfilePageTest@1ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="EditProfile()[pri:15, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="EditProfile" duration-ms="42794" started-at="2018-09-12T09:04:45Z" description="Edit Profile Validation Check" finished-at="2018-09-12T09:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfile -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.EditProfilePageTest@1ef968d]" name="getResult" is-config="true" duration-ms="2" started-at="2018-09-12T09:05:27Z" finished-at="2018-09-12T09:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfile status=SUCCESS method=EditProfilePageTest.EditProfile()[pri:15, instance:com.qa.TestCases.EditProfilePageTest@1ef968d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.TestCases.EditProfilePageTest -->
+      <class name="com.qa.TestCases.ManagedCardTest">
+        <test-method status="PASS" signature="EditProfileTittleValidation()[pri:16, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="EditProfileTittleValidation" duration-ms="5083" started-at="2018-09-12T09:05:27Z" description="Tittle Validation for Add Card Page on Consumer Portal" finished-at="2018-09-12T09:05:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditProfileTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="getResult" is-config="true" duration-ms="0" started-at="2018-09-12T09:05:32Z" finished-at="2018-09-12T09:05:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditProfileTittleValidation status=SUCCESS method=ManagedCardTest.EditProfileTittleValidation()[pri:16, instance:com.qa.TestCases.ManagedCardTest@1e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddCard()[pri:17, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="AddCard" duration-ms="61620" started-at="2018-09-12T09:05:32Z" description="Add Credit/Debit Card on Consumer Portal" finished-at="2018-09-12T09:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCard -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="getResult" is-config="true" duration-ms="7" started-at="2018-09-12T09:06:34Z" finished-at="2018-09-12T09:06:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddCard status=SUCCESS method=ManagedCardTest.AddCard()[pri:17, instance:com.qa.TestCases.ManagedCardTest@1e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="EditCardDetails()[pri:18, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="EditCardDetails" duration-ms="39368" started-at="2018-09-12T09:06:34Z" description="Edit Card on Consumer Portal" finished-at="2018-09-12T09:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCardDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="getResult" is-config="true" duration-ms="0" started-at="2018-09-12T09:07:13Z" finished-at="2018-09-12T09:07:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EditCardDetails status=SUCCESS method=ManagedCardTest.EditCardDetails()[pri:18, instance:com.qa.TestCases.ManagedCardTest@1e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DeleteCardDetails()[pri:19, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="DeleteCardDetails" duration-ms="49626" started-at="2018-09-12T09:07:13Z" description="Delete Card Details from Consumer Portal" finished-at="2018-09-12T09:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCardDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="getResult" is-config="true" duration-ms="3" started-at="2018-09-12T09:08:03Z" finished-at="2018-09-12T09:08:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteCardDetails status=SUCCESS method=ManagedCardTest.DeleteCardDetails()[pri:19, instance:com.qa.TestCases.ManagedCardTest@1e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AddBankAccDetails()[pri:20, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="AddBankAccDetails" duration-ms="98188" started-at="2018-09-12T09:08:03Z" description="Additon of Bank Details on Consumer Portal" finished-at="2018-09-12T09:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddBankAccDetails -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.ManagedCardTest@1e028a9]" name="getResult" is-config="true" duration-ms="4" started-at="2018-09-12T09:09:41Z" finished-at="2018-09-12T09:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddBankAccDetails status=SUCCESS method=ManagedCardTest.AddBankAccDetails()[pri:20, instance:com.qa.TestCases.ManagedCardTest@1e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.TestCases.ManagedCardTest -->
+      <class name="com.qa.TestCases.TranscationHistoryTest">
+        <test-method status="PASS" signature="TranscationHistoryTittleValidation()[pri:9, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="TranscationHistoryTittleValidation" duration-ms="5018" started-at="2018-09-12T09:03:56Z" description="Tittle Validation for Dashboard Page of Consumer Portal" finished-at="2018-09-12T09:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TranscationHistoryTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:04:01Z" finished-at="2018-09-12T09:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TranscationHistoryTittleValidation status=SUCCESS method=TranscationHistoryTest.TranscationHistoryTittleValidation()[pri:9, instance:com.qa.TestCases.TranscationHistoryTest@1c79255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="DashBoardPageTittleValidation()[pri:10, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="DashBoardPageTittleValidation" duration-ms="128" started-at="2018-09-12T09:04:01Z" description="Tittle Validation for Add Card Page on Consumer Portal" finished-at="2018-09-12T09:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardPageTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="getResult" is-config="true" duration-ms="0" started-at="2018-09-12T09:04:01Z" finished-at="2018-09-12T09:04:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DashBoardPageTittleValidation status=SUCCESS method=TranscationHistoryTest.DashBoardPageTittleValidation()[pri:10, instance:com.qa.TestCases.TranscationHistoryTest@1c79255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="ClickOnCalender()[pri:11, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="ClickOnCalender" duration-ms="25039" started-at="2018-09-12T09:04:01Z" description="Transcation History Validation" finished-at="2018-09-12T09:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnCalender -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:04:27Z" finished-at="2018-09-12T09:04:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ClickOnCalender status=SUCCESS method=TranscationHistoryTest.ClickOnCalender()[pri:11, instance:com.qa.TestCases.TranscationHistoryTest@1c79255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="TransHistoryScreenValidation()[pri:12, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="TransHistoryScreenValidation" duration-ms="12728" started-at="2018-09-12T09:04:27Z" description="Transcation History Compelte Screen Field Validation" finished-at="2018-09-12T09:04:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TransHistoryScreenValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.qa.TestCases.TranscationHistoryTest@1c79255]" name="getResult" is-config="true" duration-ms="1" started-at="2018-09-12T09:04:39Z" finished-at="2018-09-12T09:04:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TransHistoryScreenValidation status=SUCCESS method=TranscationHistoryTest.TransHistoryScreenValidation()[pri:12, instance:com.qa.TestCases.TranscationHistoryTest@1c79255] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.qa.TestCases.TranscationHistoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,5 @@
+com\qa\TestCases\DashBoardTest.class
+com\qa\TestCases\TranscationHistoryTest.class
+com\qa\TestCases\ConsumerLoginPageTest.class
+com\qa\TestCases\EditProfilePageTest.class
+com\qa\TestCases\ManagedCardTest.class
